@@ -35,8 +35,19 @@ public class Five {
     // how many times the loop ran - once cause <5-3 = <2 so 1
 
 
-    // IMPORTANT : HOW MANY TIMES THE INTERNAL LOOP WILL RUN : <N-i times or <= N-i-1 times 
+    // IMPORTANT : HOW MANY TIMES THE INTERNAL LOOP WILL RUN : <N-i times or <= N-i-1 times
 
+    //total no. of comparisons :
+    // (n-1) + (n-2) + (n-3) + (n-4)
+    // = 4n - (1+2+3+4)
+    // = 4n - (n x (n+1)) /2
+    // = 4n - (n^2 + n) /2
+
+
+
+    // so the time complexity of the bubble sort is O(N^2)
+    // as the constants are ignored and lesser dominating terms are removed
+        // more information in the notes
 
 
 }
