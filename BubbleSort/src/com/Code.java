@@ -69,4 +69,4 @@ public class Code {
 // all test cases are working
 // in case of sorted array
 // only 1 time the outer loop ie ith loop will run
-// cause of the boolean swap variable 
+// cause of the boolean swap variable
