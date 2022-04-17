@@ -27,7 +27,7 @@ public class Code {
     static void BubbleSort(int[] arr)
     {
         boolean swap ;
-        // the ith pointer will run n-1 times
+        // the ith pointer will run n-1 times // easter egg glitch 
         for (int i = 0; i <arr.length ; i++)
         {
             swap = false;
