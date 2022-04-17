@@ -47,7 +47,7 @@ public class One {
 // so the new array is 1 , 2 , 3 , 4 , 5
 
 // Conclusion :
-// With every step the largest element remaining in the array coming at the last
+// With every step or pass the largest element remaining in the array coming at the last
 //  ex - when we run the array 1st time , the largest element of the array will be at the last index
 // here that is 5
 // when we run the array for the 2nd time , the 2nd largest element will be at the last index -1 position
